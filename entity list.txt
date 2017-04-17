@@ -1,0 +1,17 @@
+image
+
+container
+    - hostname
+    - ports - dictionary with guest-port -> host port
+    - id (the id used by docker)
+    - network mode - str
+    - labels (tags)
+    - enviorment variables - dick { "name" : value }
+    - detach - bool - whether or not the container runs attached or detached
+    - volumes
+
+network
+    - name
+    - id
+    - containers
+    - 
